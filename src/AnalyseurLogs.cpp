@@ -1,5 +1,6 @@
 /// Analyseur de statistiques grâce aux logs.
 /// \author Misha Krieger-Raynauld
+/// \filled by Bouh Abdillahi (1940646) & Junior Lionel Metogo (1935652)
 /// \date 2020-01-12
 
 #include "AnalyseurLogs.h"
@@ -112,7 +113,7 @@ const Film* AnalyseurLogs::getFilmPlusPopulaire() const
 
 }
 
-/// Retourne une liste des films les plus regardés et leur nombre de vues parmi lesdonnées chargées dans l'analyseur de logs.
+/// Retourne une liste des films les plus regardés et leur nombre de vues parmi les données chargées dans l'analyseur de logs.
 /// \param nombre                   Nombre de films les plus populaires à retourner.
 /// \return                         Liste des films les plus regardés accompagnés de leur nombre de vues.
 std::vector<std::pair<const Film*, int>> AnalyseurLogs::getNFilmsPlusPopulaires(std::size_t nombre) const
@@ -143,7 +144,7 @@ std::vector<const Film*> AnalyseurLogs::getFilmsVusParUtilisateur(const Utilisat
 	{
 		if (utilisateur == element.utilisateur)
 		{
-			set.insert( element.film);
+			set.insert(element.film);
 		}
 	}
 	return std::vector<const Film*>(set.begin(), set.end()) ;

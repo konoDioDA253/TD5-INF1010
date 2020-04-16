@@ -1,3 +1,9 @@
+/*
+ * Titre : Foncteurs.h - Travail Pratique #5 - Programmation Orientée Objet
+ * Date : 16 Avril 2020
+ * Auteurs : Bouh Abdillahi (1940646) & Junior Lionel Metogo (1935652)
+ */
+
 #ifndef FONCTEUR_H
 #define FONCTEUR_H
 
