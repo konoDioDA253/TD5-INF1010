@@ -150,4 +150,4 @@ std::vector<const Film*> AnalyseurLogs::getFilmsVusParUtilisateur(const Utilisat
 }
 
 
-//Niktamer
+//Niktamer Jtemmerde
