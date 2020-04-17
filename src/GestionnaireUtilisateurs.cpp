@@ -1,6 +1,8 @@
 /// Gestionnaire d'utilisateurs.
 /// \author Misha Krieger-Raynauld
+/// \filled by Bouh Abdillahi (1940646) & Junior Lionel Metogo (1935652)
 /// \date 2020-01-12
+/// \last modification 2020-04-17
 
 #include "GestionnaireUtilisateurs.h"
 #include <fstream>
